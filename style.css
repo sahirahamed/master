@@ -279,3 +279,97 @@ align-items: center;
     font-size: 25px;
     top:-25px;
 }
+.money-exchange{
+    display: flex;
+    flex-direction: row;
+height: 250px;
+width:100%;
+background-color: palevioletred;
+
+
+}
+.notes{
+    display: flex;
+flex-direction: row;
+height:230px;
+width:98%;
+    border:1px solid white;
+margin-top: 10px;
+margin-left: 10px;
+}
+.note{
+
+    display: flex;
+    flex-direction: row;
+    height:230px;
+    width:100%;
+        border:1px solid white;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.dollar{
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+margin-left: 50px;
+color:white;
+line-height: 1.5em;
+margin-top: 10px;
+
+}
+.large{
+
+font-size: 30px;
+color: white;
+font-weight: bold;
+}
+.money-exchanges{
+
+    display: flex;
+    flex-direction: row;
+height: 230px;
+width:100%;
+background-color: white;
+color:black;
+line-height: 1.5em;
+box-shadow: 2px 2px 2px grey;
+
+
+
+
+
+}
+.larges{
+
+    font-size: 30px;
+    color:black;
+    font-weight: bold;
+
+}
+.dollars{
+
+
+ 
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+margin-left: 10px;
+color:black;
+line-height: 1.5em;
+margin-top: 10px;
+}
+.small{
+height:210px;
+width:730px;
+
+
+}
+.image{
+
+margin-left: 50px;
+
+}
