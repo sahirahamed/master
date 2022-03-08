@@ -185,3 +185,97 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 }
+.about-head{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+font-size: 18px;
+
+
+}
+.exchange{
+
+
+display: flex;
+flex-direction: row;
+
+
+}
+.rate{
+
+
+display: flex;
+flex-direction: column;
+height: 350px;
+width:320px;
+box-shadow: 2px 2px 2px 2px grey;
+border-radius: 5px;
+margin-top: 10px;
+margin-left: 100px;
+background-color:ghostwhite;
+justify-content: flex-start;
+align-items: center;
+margin-top: 10px;
+font-size: 15px;
+line-height: 1.5em;
+}
+.circle{
+height: 100px;
+width:100px;
+border-radius: 50px;
+box-shadow: 2px 2px 2px 2px grey;
+
+}
+.circles{
+
+    height: 110px;
+    width:130px;
+    
+
+}
+.circl{
+
+    height: 100px;
+    width:100px;
+border-radius: 50px;
+
+
+}
+.brown{
+
+font-size: 20px;
+color:brown;
+font-weight: bolder;
+
+}
+.abouts{
+
+
+margin-top: 20px;
+border-top: 1px solid black;
+height:50px;
+width:350px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+position: relative;
+margin-left: 500px;
+
+}
+.titles{
+
+background-color: white;
+height: 50px;
+width: 220px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+    position: absolute;
+    left:65px;
+    color: black;
+    font-size: 25px;
+    top:-25px;
+}
