@@ -487,3 +487,44 @@ padding: 10px;
 
 
 }
+.follow{
+
+
+margin-left: 150px;
+margin-top: 10px;
+display: flex;
+flex-direction: row;
+
+
+
+}
+.us{
+
+font-size: 30px;
+font-weight: bolder;
+position: relative;
+
+}
+.follower{
+
+
+display: flex;
+flex-direction: column;
+margin-top: 20px;
+
+
+}
+.b{
+
+position: absolute;
+z-index: 2;
+margin-top: -10px;
+
+
+}
+.bb{
+z-index: 1;
+position: absolute;
+margin-top: -18px;
+margin-left: 83px;
+}
