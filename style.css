@@ -528,3 +528,48 @@ position: absolute;
 margin-top: -50px;
 margin-left: 284px;
 }
+.anchor{
+
+color:rgb(8, 76, 201);
+font-size: 17px;
+margin-left: 50px;
+
+}
+.blue{
+
+color:rgb(8, 76, 201);
+
+}
+.details{
+
+margin-top: 20px;
+font-size: 18px;
+margin-left: 50px;
+}
+.font{
+
+
+font-size: 18px;
+
+margin-left: 50px;
+}
+.copy{
+
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+height: 50px;
+width: 100%;
+background-color: rgb(37, 35, 35);
+color:grey;
+
+}
+.change{
+
+
+font-size: 20px;
+margin-left: 50px;
+
+}
