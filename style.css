@@ -518,13 +518,13 @@ margin-top: 20px;
 
 position: absolute;
 z-index: 2;
-margin-top: -10px;
-
+margin-top: -40px;
+margin-left: 200px;
 
 }
 .bb{
 z-index: 1;
 position: absolute;
-margin-top: -18px;
-margin-left: 83px;
+margin-top: -50px;
+margin-left: 284px;
 }
