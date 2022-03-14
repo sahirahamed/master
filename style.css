@@ -1,3 +1,14 @@
+.parent{
+
+height: 100%;
+width:100%;
+background-color:white;
+
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
 .header{
 
 
@@ -98,7 +109,7 @@ margin-top: 20px;
 
  
 }
-.wallpaper{
+ .wallpaper{
 
 
 background-image: url(images/currency-zoom.jfif);
@@ -111,7 +122,7 @@ display: flex;
 flex-direction: column;
 /* justify-content: center;
 align-items: center; */
-}
+} 
 .best{
 font-size: 25px;
 color: brown;
@@ -134,12 +145,7 @@ margin-top: 200px;
 margin-left: 350px;
 
 }
-.slide-text{
 
-
-
-
-}
 .pink{
 
 
@@ -264,6 +270,7 @@ position: relative;
 margin-left: 500px;
 
 }
+
 .titles{
 
 background-color: white;
@@ -284,10 +291,17 @@ align-items: center;
     flex-direction: row;
 height: 250px;
 width:100%;
-background-color: palevioletred;
-
+background-color: white;
+color:black;
 
 }
+
+.money-exchange :hover{
+background-color: palevioletred;
+}
+.money-exchanges :hover{
+    background-color: palevioletred;
+    }
 .notes{
     display: flex;
 flex-direction: row;
@@ -315,7 +329,7 @@ flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
 margin-left: 50px;
-color:white;
+color:black;
 line-height: 1.5em;
 margin-top: 10px;
 
@@ -342,6 +356,7 @@ box-shadow: 2px 2px 2px grey;
 
 
 }
+
 .larges{
 
     font-size: 30px;
@@ -363,11 +378,12 @@ line-height: 1.5em;
 margin-top: 10px;
 }
 .small{
-height:210px;
-width:730px;
+height:222px;
+width:690px;
 
-
+margin-top: 3px;
 }
+
 .image{
 
 margin-left: 50px;
@@ -533,6 +549,13 @@ margin-left: 284px;
 color:rgb(8, 76, 201);
 font-size: 17px;
 margin-left: 50px;
+
+
+}
+.anchor a{
+    text-decoration: none;
+
+
 
 }
 .blue{

@@ -1,0 +1,550 @@
+.parent{
+    height: 100%;
+    width:100%;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   background-color:white;
+   
+   }
+   .nav-bar{
+   
+   display: flex;
+   flex-direction: row;
+   height: 60px;
+   width:100%;
+   background-color:#9f1f63;
+   color:white;
+   justify-content: flex-start;
+   align-items: center;
+   
+   
+   }
+   .content{
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+   font-size: 20px;
+   float: right;
+   color:white;
+   margin-left: 25px;
+   
+   }
+   .nav-bar ul{
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+   color:white;
+   
+   }
+   .border{
+   height:60px;
+   width: 160px;
+   
+   border-right: 1px solid rgb(221, 16, 136);
+   
+   }
+   .nav-bar ul li a{
+   
+   padding-left: 10px;
+   
+   padding-right: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   color:white;
+   height: 60px;
+   
+   
+   }
+   a:hover{
+   
+   color:red;
+   background-color: silver;
+   
+   
+   }
+   .symbol{
+   
+   display: flex;
+   flex-direction: row;
+   
+   background-color: white;
+   margin-left: 100px;
+   margin-top: 10px;
+   }
+   .toll{
+   
+   font-size: 25px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-left: 320px;
+   margin-top: 40px;
+   }
+   .picture{
+height: 250px;
+width:100%;
+
+
+
+
+   }
+   .rights{
+
+
+display: flex;
+flex-direction: row;
+margin-left: 50px;
+
+   }
+   .private{
+height:600px;
+width:700px;
+display: flex;
+flex-direction: column;
+line-height: 0.2em;
+position: relative;
+font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+margin-top: 10px;
+}
+.form{
+
+display: flex;
+flex-direction: column;
+height: 600px;
+width: 600px;
+
+margin-left: 50px;
+}
+.house{
+
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+
+}
+.houses{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+   margin-left: 45px;
+
+}
+.round-image{
+
+
+height: 50px;
+width:55px;
+border-radius: 10px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+}
+.round-images{
+
+   height: 50px;
+width:45px;
+border-radius: 50px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+margin-left: 5px;
+
+}
+.add{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+margin-left: 10px;
+
+}
+.heading{
+
+
+font-weight: bolder;
+color:#9f1f63;
+font-size: 22px;
+margin-left: 10px;
+margin-bottom: 10px;
+}
+.deal{
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+margin-left: 10px;
+margin-bottom: 25px;
+}
+.deals{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+ position: absolute;  
+ top:70px;
+ left:0px;
+
+}
+.retail{
+
+
+display: flex;
+flex-direction: column;
+line-height: 2em;
+justify-content: center;
+align-items: flex-start;
+margin-top: 20px;
+}
+.branch{
+
+
+display: flex;
+flex-direction: row;
+
+}
+.column{
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start
+}
+.time{
+
+height: 50px;
+width:50px;
+border-radius: 20px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+
+}
+.times{
+   height: 60px;
+   width:60px;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+
+
+
+}
+.rr{
+
+display: flex;
+flex-direction: column;
+line-height: 1.5em;
+justify-content: center;
+align-items: flex-start;
+
+}
+
+.box{
+
+height:40px;
+width:350px;
+border:1px solid grey;
+box-shadow: 2px 2px 2px 2px grey;
+margin-left: 80px;
+background-color: ghostwhite;
+border-radius: 5px;
+}
+.city-box{
+
+   height:40px;
+   width:350px;
+   border:1px solid grey;
+   box-shadow: 2px 2px 2px 2px grey;
+   margin-left: 95px;
+   background-color: ghostwhite;
+   border-radius: 5px;
+
+}
+.subject-box{
+
+   height:40px;
+   width:350px;
+   border:1px solid grey;
+   box-shadow: 2px 2px 2px 2px grey;
+   margin-left: 68px;
+   background-color: ghostwhite;
+   border-radius: 5px;
+}
+.name-label{
+
+font-size: 15px;
+font-weight: bolder;
+color: gray;
+
+}
+
+.sms-box{
+
+
+   height:100px;
+   width:350px;
+   border:1px solid grey;
+   box-shadow: 2px 2px 2px 2px grey;
+   margin-left: 65px;
+   background-color: ghostwhite;  
+   border-radius: 5px;
+}
+.mobile-box{
+   height:40px;
+   width:350px;
+   border:1px solid grey;
+   box-shadow: 2px 2px 2px 2px grey;
+   margin-left: 70px;
+   background-color: ghostwhite;  
+   border-radius: 5px;
+
+}
+.small-box{
+
+   height:42px;
+   width:150px;
+   border:1px solid grey;
+   box-shadow: 2px 2px 2px 2px grey;
+   margin-left: 120px;
+   background-color: ghostwhite;  
+   border-radius: 5px;
+
+}
+.code{
+margin-left: 45px;
+position: relative;
+
+
+}
+.captcha{
+
+height: 45px;
+width:150px;
+border: 2px solid black;
+position: absolute;
+}
+.games{
+
+display: flex;
+flex-direction: row;
+
+height:60px;
+width:600px;
+}
+.enter{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start;
+font-weight: bolder;
+color: gray;
+
+}
+.send{
+
+background-color: #9f1f63;
+color:white;
+font-size: 16px;
+height: 42px;
+width: 100px;
+border-radius: 5px;
+}
+.buttons{
+
+margin-left: 150px;
+margin-top: 20px;
+
+}
+.locations{
+
+   display: flex;
+   flex-direction: column;
+   
+   height: 400px;
+   width:380px;
+   margin-top: 60px;
+   margin-left: 100px;
+font-size: 18px;
+
+}
+.pin{
+
+margin-left: 40px;
+margin-top: 10px;
+}
+.map{
+
+margin-top: 50px;
+
+
+}
+.google{
+
+
+display: flex;
+flex-direction: column;
+position: relative;
+border-bottom: 1px solid black;
+padding: 10px;
+}
+.direction{
+
+position: absolute;
+top:-30px;
+}
+.emails{
+   border-bottom: 1px solid black;
+font-size: 20px;
+padding: 10px;
+
+}
+.money{
+   font-size: 20px;
+   border-bottom: 1px solid black;
+   padding: 10px;
+   color: brown;
+font-weight: bolder;
+
+}
+.menu{
+   display: flex;
+   flex-direction: row;
+   
+   
+   
+   }
+   .home-page{
+   
+   display: flex;
+   flex-direction: column;
+   
+   height: 400px;
+   width:350px;
+   margin-top: 50px;
+   
+   }
+   .home-page ul li{
+   list-style: none;
+   
+   font-size: 20px;
+   border-bottom: 1px solid black;
+   padding: 10px;
+   
+   }
+   .contact{
+
+      display: flex;
+      flex-direction: row;
+      
+      }
+      .details{
+      
+      margin-top: 80px;
+      margin-left: 100px;
+      font-size: 30px;
+      font-weight: bolder;
+      }
+      .fb{
+      
+      height: 55px;
+      width: 70px;
+      border-radius: 20px;
+      }
+      .chrome{
+      
+          height: 70px;
+          width: 60px;
+          border-radius: 10px;
+      
+      }
+      .a{
+
+         margin-top: 70px;
+         margin-left: 20px;
+         }
+         .b{
+         margin-top: 63px;
+         margin-left: 5px;
+         
+         }
+         .para{
+
+
+            display: flex;
+            flex-direction: column;
+            
+            }
+            .stanza{
+            margin-left: 50px;
+            line-height: 1.7em;
+            font-size: 16px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            .terms{
+            
+            
+            
+            display: flex;
+            flex-direction: column;
+            
+            }
+            .terms ul {
+            
+            list-style: none;
+            
+            
+            }
+            .terms ul li a{
+            
+            color: blue;
+            text-decoration: none;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 16px;
+            line-height: 2em;
+            margin-left: 10px;
+            }
+            .terms ul li a:hover{
+            color: blueviolet;
+            text-decoration: underline;
+            background-color: none;
+            
+            }
+            .service{
+            margin-left: 50px;
+            
+            
+            }
+            .right{
+            
+            display: flex;
+            flex-direction: row;
+            height: 50px;
+            width:100%;
+            background-color: rgb(39, 37, 37);
+            color: aliceblue;
+            font-size: 18px;
+            justify-content: center;
+            align-items: center;
+            
+            }
+            .blue{
+            
+            color:blue;
+            
+            }         
+            /*  */
+            
